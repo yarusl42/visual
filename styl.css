@@ -14,7 +14,7 @@ body{
 }
 
 .element_big {
-    border: 1px solid pink;
+    border: 1px solid rgb(255, 255, 255);
     height: 60%;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body{
 }
 
 .element_small {
-    border: 1px solid greenyellow;
+    border: 1px solid rgb(255, 255, 255);
     width: 50%;
     height: 100%; 
 }
