@@ -32,5 +32,18 @@ body{
 }
 .icon{
     color: green;
-    font-size: 500px !important;
+    font-size: 300px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.img {
+    background: url(111111111111111.png) no-repeat center center / cover;
+}
+.img1 {
+    background: url(psd_guns3213134.png) no-repeat center center / cover;
+}
+.img2 {
+    background: url(233232.png) no-repeat center center / cover;
 }
