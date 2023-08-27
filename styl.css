@@ -54,12 +54,13 @@ body{
     color: rgb(0, 162, 255);
     font-size: 400px !important
 }
-.small_element {
+
+.element_small {
+    position: relative;
     width: 50%;
     height: 100%;
-    margin: -150px;
     float: left;
-    perspective: 500px;
+    perspective: 300px;
   }
   
   .content {
@@ -72,7 +73,7 @@ body{
     transform-style: preserve-3d;
   }
   
-  .small_element:hover .content {
+  .element_small:hover .content {
     transform: rotateY( 180deg ) ;
     transition: transform 0.5s;
   }
@@ -81,8 +82,6 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background: white;
-    line-height: 300px;
     color: #03446A;
     text-align: center;
     backface-visibility: hidden;
@@ -92,4 +91,7 @@ body{
     background: #03446A;
     color: white;
     transform: rotateY( 180deg );
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
